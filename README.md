@@ -36,7 +36,7 @@ A lightweight utility tool built with C# and VSTO to **block outgoing emails in 
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/yourusername/OutlookMailBlocker.git
+   git clone (https://github.com/SumitCodeRepo/OutlookMailBlocker.git)
 Open in Visual Studio as an Outlook VSTO Add-in project
 
 Build and install the add-in
