@@ -1,7 +1,7 @@
 
 OutlookMailBlocker
 
-A lightweight utility tool built with C# and VSTO to **block outgoing emails in Microsoft Outlook**. Ideal for developers, QA teams, or IT admins who want to prevent accidental email sends during testing or sandbox use.
+A lightweight utility tool built with C# and VSTO to **block outgoing emails in Microsoft Outlook**. Ideal for those who want to prevent accidental email sends, either by typo or when sending to a group email.
 
 ---
 
@@ -18,7 +18,7 @@ A lightweight utility tool built with C# and VSTO to **block outgoing emails in 
 ## 🖥️ How It Works
 
 - Hooks into Outlook’s `Application.ItemSend` event
-- Inspects outgoing mail and alert the user  for external mails and allow to cancels the send operation is cancelled
+- Inspects outgoing mail and alerts the user  for external mails, and allows the user to cancel the send operation
 - Optionally displays a notification or logs the attempt
 
 ---
@@ -61,15 +61,15 @@ private void Application_ItemSend(object item, ref bool cancel)
     MessageBox.Show("Outgoing email blocked by OutlookMailBlocker.", "Blocked", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 }
 🛡️ Use Cases
-Prevent test environments from sending real emails
+Prevent accidental email outside the domain.
 
 Train employees in Outlook without risk
 
 Regulatory or legal compliance in controlled systems
 
 📬 Contact
-Made with 💙 by [Your Name]
-📧 Reach me at: youremail@example.com
+Made with 💙 by Sumit Harit
+📧 Reach me at: sumitharit1410@gmail.com
 🌐 LinkedIn
 
 📝 License
